@@ -1,0 +1,80 @@
+python:
+  component-type: docker-image
+  current-version: 3.6.6-alpine3.8
+  docker-repo: library
+  filter: /^\d+\.\d+\.\d+-alpine\d+\.\d+$/
+  files: [Dockerfile]
+  version-pattern: "PYTHON_VERSION={version}"
+defusedxml:
+  component-type: pypi
+  current-version: 0.5.0
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+Django:
+  component-type: pypi
+  current-version: 2.1.2
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+oauthlib:
+  component-type: pypi
+  current-version: 2.0.2
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+parse:
+  component-type: pypi
+  current-version: 1.8.0
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+parse-type:
+  component-type: pypi
+  current-version: 0.3.4
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+PyJWT:
+  component-type: pypi
+  current-version: 1.4.2
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+python-social-auth:
+  component-type: pypi
+  current-version: 0.3.6
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+python3-openid:
+  component-type: pypi
+  current-version: 3.1.0
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+requests:
+  component-type: pypi
+  current-version: 2.20.0
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+requests-oauthlib:
+  component-type: pypi
+  current-version: 0.8.0
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+six:
+  component-type: pypi
+  current-version: 1.10.0
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+wheel:
+  component-type: pypi
+  current-version: 0.29.0
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+psycopg2:
+  component-type: pypi
+  current-version: 2.7.1
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+gunicorn:
+  component-type: pypi
+  current-version: 19.7.1
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
+
+
+
