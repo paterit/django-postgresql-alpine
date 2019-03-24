@@ -1,80 +1,107 @@
-python:
-  component-type: docker-image
-  current-version: 3.6.6-alpine3.8
-  docker-repo: library
-  filter: /^\d+\.\d+\.\d+-alpine\d+\.\d+$/
-  files: [Dockerfile]
-  version-pattern: "PYTHON_VERSION={version}"
+Django:
+  component-type: pypi
+  current-version: 2.1.7
+  files:
+  - requirements.txt
+  filter: /^\d+\.\d+\.\d+$/
+  next-version: 2.1.7
+PyJWT:
+  component-type: pypi
+  current-version: 1.7.1
+  files:
+  - requirements.txt
+  filter: /^\d+\.\d+\.\d+$/
+  next-version: 1.7.1
 defusedxml:
   component-type: pypi
   current-version: 0.5.0
-  files: [requirements.txt]
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-Django:
+  next-version: 0.5.0
+gunicorn:
   component-type: pypi
-  current-version: 2.1.2
-  files: [requirements.txt]
+  current-version: 19.9.0
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
+  next-version: 19.9.0
 oauthlib:
   component-type: pypi
-  current-version: 2.0.2
-  files: [requirements.txt]
+  current-version: 3.0.1
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
+  next-version: 3.0.1
 parse:
   component-type: pypi
-  current-version: 1.8.0
-  files: [requirements.txt]
+  current-version: 1.11.1
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
+  next-version: 1.11.1
 parse-type:
   component-type: pypi
-  current-version: 0.3.4
-  files: [requirements.txt]
+  current-version: 0.4.2
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-PyJWT:
+  next-version: 0.4.2
+psycopg2:
   component-type: pypi
-  current-version: 1.4.2
-  files: [requirements.txt]
+  current-version: 2.7.7
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
+  next-version: 2.7.7
+python:
+  component-type: docker-image
+  current-version: 3.7.2-alpine3.9
+  docker-repo: library
+  files:
+  - Dockerfile
+  filter: /^\d+\.\d+\.\d+-alpine\d+\.\d+$/
+  next-version: 3.7.2-alpine3.9
+  version-pattern: PYTHON_VERSION={version}
 python-social-auth:
   component-type: pypi
   current-version: 0.3.6
-  files: [requirements.txt]
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
+  next-version: 0.3.6
 python3-openid:
   component-type: pypi
   current-version: 3.1.0
-  files: [requirements.txt]
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
+  next-version: 3.1.0
 requests:
   component-type: pypi
-  current-version: 2.20.0
-  files: [requirements.txt]
+  current-version: 2.21.0
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
+  next-version: 2.21.0
 requests-oauthlib:
   component-type: pypi
-  current-version: 0.8.0
-  files: [requirements.txt]
+  current-version: 1.2.0
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
+  next-version: 1.2.0
 six:
   component-type: pypi
-  current-version: 1.10.0
-  files: [requirements.txt]
+  current-version: 1.12.0
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
+  next-version: 1.12.0
 wheel:
   component-type: pypi
-  current-version: 0.29.0
-  files: [requirements.txt]
+  current-version: 0.33.1
+  files:
+  - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-psycopg2:
-  component-type: pypi
-  current-version: 2.7.1
-  files: [requirements.txt]
-  filter: /^\d+\.\d+\.\d+$/
-gunicorn:
-  component-type: pypi
-  current-version: 19.7.1
-  files: [requirements.txt]
-  filter: /^\d+\.\d+\.\d+$/
-
-
-
+  next-version: 0.33.1
