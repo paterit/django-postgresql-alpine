@@ -14,7 +14,7 @@ PyJWT:
   next-version: 1.7.1
 defusedxml:
   component-type: pypi
-  current-version: 0.5.0
+  current-version: 0.6.0
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
