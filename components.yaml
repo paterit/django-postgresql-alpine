@@ -42,7 +42,7 @@ parse:
   next-version: 1.12.1
 parse-type:
   component-type: pypi
-  current-version: 0.4.2
+  current-version: 0.5.2
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
