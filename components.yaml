@@ -28,7 +28,7 @@ gunicorn:
   next-version: 20.0.0
 oauthlib:
   component-type: pypi
-  current-version: 3.0.1
+  current-version: 3.1.0
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
