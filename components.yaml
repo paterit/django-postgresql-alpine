@@ -21,11 +21,13 @@ defusedxml:
   next-version: 0.6.0
 gunicorn:
   component-type: pypi
-  current-version: 19.9.0
+  current-version: 20.0.2
+  exclude-versions:
+  - 20.0.0
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  exclude-versions: [20.0.0] #https://github.com/benoitc/gunicorn/issues/2160
+  next-version: 20.0.2
 oauthlib:
   component-type: pypi
   current-version: 3.1.0
