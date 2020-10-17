@@ -102,7 +102,7 @@ six:
   next-version: 1.15.0
 wheel:
   component-type: pypi
-  current-version: 0.33.6
+  current-version: 0.35.1
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
