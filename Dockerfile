@@ -1,4 +1,4 @@
-ARG PYTHON_VERSION=3.8.0-alpine3.10
+ARG PYTHON_VERSION=3.9.0-alpine3.12
 
 FROM python:${PYTHON_VERSION} as builder
 
@@ -11,7 +11,8 @@ RUN apk update && \
         gcc \
         musl-dev \
         postgresql-dev \
-        postgresql-libs
+        postgresql-libs \
+        libffi-dev
 
 # build wheels instead of installing
 WORKDIR /wheels
