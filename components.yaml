@@ -74,7 +74,7 @@ python-social-auth:
   next-version: 0.3.6
 python3-openid:
   component-type: pypi
-  current-version: 3.1.0
+  current-version: 3.2.0
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
