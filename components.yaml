@@ -21,7 +21,7 @@ defusedxml:
   next-version: 0.6.0
 gunicorn:
   component-type: pypi
-  current-version: 20.0.2
+  current-version: 20.0.4
   exclude-versions:
   - 20.0.0
   files:
