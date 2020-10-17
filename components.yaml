@@ -1,10 +1,10 @@
 Django:
   component-type: pypi
-  current-version: 2.2.7
+  current-version: 3.1.2
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  next-version: 2.2.7
+  next-version: 3.1.2
 PyJWT:
   component-type: pypi
   current-version: 1.7.1
@@ -27,7 +27,7 @@ gunicorn:
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  next-version: 20.0.2
+  next-version: 20.0.4
 oauthlib:
   component-type: pypi
   current-version: 3.1.0
@@ -41,7 +41,7 @@ parse:
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  next-version: 1.12.1
+  next-version: 1.18.0
 parse-type:
   component-type: pypi
   current-version: 0.5.2
@@ -55,7 +55,7 @@ psycopg2:
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  next-version: 2.8.4
+  next-version: 2.8.6
 python:
   component-type: docker-image
   current-version: 3.8.0-alpine3.10
@@ -63,7 +63,7 @@ python:
   files:
   - Dockerfile
   filter: /^\d+\.\d+\.\d+-alpine\d+\.\d+$/
-  next-version: 3.8.0-alpine3.10
+  next-version: 3.9.0-alpine3.12
   version-pattern: PYTHON_VERSION={version}
 python-social-auth:
   component-type: pypi
@@ -78,14 +78,14 @@ python3-openid:
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  next-version: 3.1.0
+  next-version: 3.2.0
 requests:
   component-type: pypi
   current-version: 2.22.0
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  next-version: 2.22.0
+  next-version: 2.24.0
 requests-oauthlib:
   component-type: pypi
   current-version: 1.3.0
@@ -99,11 +99,11 @@ six:
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  next-version: 1.13.0
+  next-version: 1.15.0
 wheel:
   component-type: pypi
   current-version: 0.33.6
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  next-version: 0.33.6
+  next-version: 0.35.1
